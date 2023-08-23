@@ -3,7 +3,7 @@ def count_letters(main_str):             # TODO  Напишите функцию
     letters = {}
     lowercase_text = main_str.lower()
     for symbol in lowercase_text:
-        if symbol.isalpha() and symbol.islower():
+        if symbol.isalpha():
             if symbol in letters:
                 letters[symbol] += 1
             else:
